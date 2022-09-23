@@ -1,0 +1,18 @@
+{
+   "GameCardId":"REV_835",
+   "ConfigComment":"Imp King Rafaam - Battlecry: Resurrect four friendly Imps. Infuse (5): Give your Imps +2/+2.",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Low value unless infused",
+            "condition":"my_minions(count()) < 1 AND my_hand(count(), minioncard = true) > 1",
+            "value":"-20"
+         },
+         {
+            "comment":"Play if no other option",
+            "condition":"my_minions(count()) < 1 AND my_hand(count(), minioncard = true) <= 1",
+            "value":"20"
+         }
+      ]
+   }
+}

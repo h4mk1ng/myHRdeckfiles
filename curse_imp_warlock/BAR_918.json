@@ -1,0 +1,13 @@
+{
+   "GameCardId":"BAR_918",
+   "ConfigComment":"Tamsin Roame - Whenever you cast a Shadow spell that costs (1) or more, add a copy to your hand that costs (0).",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Gain value if Dragged Below or Abyssal Wave is available to play",
+            "condition":"my_hero(count(),max_mana > 6) > 0 AND my_hand(count(), cardid = TSC_956) > 0",
+            "value":"50"
+         }
+      ]
+   }
+}

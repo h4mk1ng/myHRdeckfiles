@@ -1,0 +1,18 @@
+{
+   "GameCardId":"GIL_191",
+   "ConfigComment":"Fiendish Circle - Summon 4 1/1 Imps.",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Don't play if minion count over 4",
+            "condition":"my_minions(count()) > 4",
+            "value":"-100"
+         },
+         {
+            "comment":"Play aggressively if minion count less than 1",
+            "condition":"my_minions(count()) <= 1",
+            "value":"60"
+         }
+      ]
+   }
+}

@@ -1,0 +1,13 @@
+{
+   "GameCardId":"REV_242",
+   "ConfigComment":"Flustered Librarian - Has +1 Attack for each Imp you control.",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Lose value with less imp count on the board",
+            "condition":"my_minions(count(), demon=true) > 0",
+            "value":"my_minions(count()) * 10"
+         }
+      ]
+   }
+}

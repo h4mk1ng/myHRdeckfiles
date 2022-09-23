@@ -1,0 +1,13 @@
+{
+   "GameCardId":"DED_504",
+   "ConfigComment":"Wicked Shipment - Tradeable. Summon 2 1/1 Imps. (Upgrades by 2 when Traded).",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Don't play when board is full",
+            "condition":"my_minions(count()) > 4",
+            "value":"-1000"
+         }
+      ]
+   }
+}

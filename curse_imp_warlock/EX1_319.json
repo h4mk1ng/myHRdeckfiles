@@ -1,0 +1,13 @@
+{
+   "GameCardId":"EX1_319",
+   "ConfigComment":"Flame Imp - Battlecry: Deal 3 damage to your hero.",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Don'y play if hero health is below 5",
+            "condition":"my_hero(max(health)) <= 5",
+            "value":"-1000"
+         }
+      ]
+   }
+}

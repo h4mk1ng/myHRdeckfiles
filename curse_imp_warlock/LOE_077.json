@@ -1,0 +1,13 @@
+{
+   "GameCardId":"LOE_077",
+   "ConfigComment":"Brann Bronzebeard - Your Battlecries trigger twice.",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Low priority to play outside of combo",
+            "condition":"my_hero(count(), max_mana < 6) > 0",
+            "value":"-500"
+         }
+      ]
+   }
+}

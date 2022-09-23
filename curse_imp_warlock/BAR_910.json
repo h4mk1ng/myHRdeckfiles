@@ -1,0 +1,18 @@
+{
+   "GameCardId":"BAR_910",
+   "ConfigComment":"Grimoire of Sacrifice - Destroy a friendly minion. Deal 2 damage to all enemy minions.",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Low value if opponent has no minions",
+            "condition":"opp_minions(count()) < 1",
+            "value":"-1000"
+         },
+         {
+            "comment":"Gain value if opponent minion count with low health is more than 2",
+            "condition":"opp_minions(count(), health <= 2, divineshield = false) > 2 AND my_minions(count(), health <= 4) <= 1",
+            "value":"30"
+         }
+      ]
+   }
+}

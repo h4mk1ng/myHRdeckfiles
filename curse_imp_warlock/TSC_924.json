@@ -1,0 +1,18 @@
+{
+   "GameCardId":"TSC_924",
+   "ConfigComment":"Abyssal Wave - Deal 4 damage to all minions. Give your oponent an Abyssal Curse.",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Increase value the number of opponent's minions",
+            "condition":"opp_minions(count(), health <= 4) > 0 AND opp_minions(count()) >= 2 AND my_minions(count()) < 2",
+            "value":"opp_minions(count(), health <= 4) * 20"
+         },
+         {
+            "comment":"Lose value the number of my minions",
+            "condition":"my_minions(count()) > 2",
+            "value":"-10"
+         }
+      ]
+   }
+}

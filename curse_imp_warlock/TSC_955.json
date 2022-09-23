@@ -1,0 +1,13 @@
+{
+   "GameCardId":"TSC_955",
+   "ConfigComment":"Sira'kess Cultist - Battlecry: Give your opponent an Abyssal Curse.",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Generally a good card to play. Also included in combo settings.",
+            "condition":"*",
+            "value":"20"
+         }
+      ]
+   }
+}

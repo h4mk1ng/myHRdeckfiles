@@ -1,0 +1,50 @@
+### Curse Imp Warlock
+# Class: Warlock
+# Format: Standard
+# Year of the Hydra
+#
+# 2x (1) Flame Imp
+# 2x (1) Flustered Librarian
+# 2x (1) Grimoire of Sacrifice
+# 2x (1) Touch of the Nathrezim
+# 2x (1) Wicked Shipment
+# 2x (2) Impending Catastrophe
+# 2x (2) Vile Library
+# 1x (3) Brann Bronzebeard
+# 2x (3) Dragged Below
+# 2x (3) Fiendish Circle
+# 2x (3) Sira'kess Cultist
+# 1x (3) Tamsin Roame
+# 2x (4) Mischievous Imp
+# 1x (5) Lady Darkvein
+# 1x (5) Za'qul
+# 2x (6) Abyssal Wave
+# 1x (6) Dreadlich Tamsin
+# 1x (6) Imp King Rafaam
+# 
+AAECAajABAby7QOwkQTmvQSY1ASb5ASH6gQM1+0Dg/sDxYAEhKAE5qAE/rQE3L0E4r0E/9kEgNoEgdoEq+oEAA==
+# 
+#
+# EX1_319 	Flame Imp 
+# REV_242	Flustered Librarian 
+# BAR_910	Grimoire of Sacrifice
+# SW_090	Touch of the Nathrezim
+# DED_504	Wicked Shipment 
+# REV_245	Impending Catastrophe 
+# REV_371 	Vile Library
+# LOE_077	Brann Bronzebeard 
+# TSC_956	Dragged Below 
+# GIL_191	Fiendish Circle 
+# TSC_955	Sira'kess Cultist 
+# BAR_918	Tamsin Roame 
+# REV_244	Mischievous Imp 
+# REV_244t	Mischievous Imp (Infused)
+# REV_373	Lady Darkvein 
+# TSC_959	Za'qul 
+# TSC_924	Abyssal Wave 
+# AV_316	Dreadlich Tamsin 
+# REV_835	Imp King Rafaam 
+# REV_835t	Imp King Rafaam (Infused)
+# 
+
+

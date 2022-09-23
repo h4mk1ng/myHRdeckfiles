@@ -1,0 +1,13 @@
+{
+   "GameCardId":"SW_090",
+   "ConfigComment":"Touch of the Nathrezim - Deal 2 damage to a friendly minion. If it dies, restore 3 health to your hero.",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Play as normal",
+            "condition":"my_hero(sum(health)) < 27 AND opp_minions(count()) < my_minions(count())",
+            "value":"0"
+         }
+      ]
+   }
+}

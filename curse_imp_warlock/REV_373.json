@@ -1,0 +1,13 @@
+{
+   "GameCardId":"REV_373",
+   "ConfigComment":"Lady Darkvein - Battlecry: Summon two 2/1 Shades. Each gains a Deathrattle to cast your last Shadow spell.",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Gain value if Abyssal Wave or Dragged Below is in the graveyard",
+            "condition":"my_graveyard(count(), cardid = TSC_956 | TSC_924 ) > 0",
+            "value":"30"
+         }
+      ]
+   }
+}

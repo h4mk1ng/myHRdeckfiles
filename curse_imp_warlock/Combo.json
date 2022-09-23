@@ -1,0 +1,25 @@
+{
+   "GameCardId":"Combo",
+   "ConfigComment":"This is the combo config file. Specific combinations of cards go here.",
+   "ComboList":{
+      "values":[
+         {
+            "comment":"Brann Bronzebeard ->  Sira'kess Cultist",
+            "condition":"my_hero(count(), max_mana >= 6) > 0",
+            "combo":"LOE_077 >> TSC_955",
+            "value":"10 >> 5"
+         },
+         {
+            "comment":"Brann Bronzebeard ->  Sira'kess Cultist",
+            "condition":"my_hero(count(), max_mana >= 9) > 0",
+            "combo":"LOE_077 >> TSC_955 >> TSC_955",
+            "value":"20 >> 15 >> 30"
+         },
+         {
+            "comment":"Tamsin Roame -> Dragged Below",
+            "condition":"my_hero(count(), max_mana >= 6) > 0 AND opp_minions(count()) > 0",
+            "combo":"BAR_918 >> TSC_956",
+            "value":"40 >> 60"         }
+      ]
+   }
+}

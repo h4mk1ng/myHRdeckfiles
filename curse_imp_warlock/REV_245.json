@@ -1,0 +1,13 @@
+{
+   "GameCardId":"REV_245",
+   "ConfigComment":"Impending Catastrophe - Draw a card. Repeat for each Imp you control.",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Gain value the more Imps on the field.",
+            "condition":"my_hand(count()) + my_minions(count(), cardid = GIL_191t | EX1_319 | REV_244 | REV_244t) + 1 <= 10 ",
+            "value":"my_minions(count(), cardid=GIL_191t | EX1_319 | REV_244 | REV_244t) * 15"
+         }
+      ]
+   }
+}

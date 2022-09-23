@@ -1,0 +1,13 @@
+{
+   "GameCardId":"TSC_959",
+   "ConfigComment":"Za'qul - Your Abyssal Curses heal you for the damage they deal. Battlecry: Give your opponent an Abyssal Curse.",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Always high value",
+            "condition":"my_hero(count(), max_mana >= 5) > 0",
+            "value":"60"
+         }
+      ]
+   }
+}

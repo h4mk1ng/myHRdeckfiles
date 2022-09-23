@@ -1,0 +1,20 @@
+﻿{
+   "GameCardId":"Mulligan",
+   "ConfigComment":"This is the mulligan rules file.",
+   "Mulligan":{
+      "values":[
+         {
+            "comment":"Flame Imp EX1_319, Grimoire of Sacrifice BAR_910, Wicked Shipment DED_504, Imp King Rafaam REV_835",
+            "mulligan":"EX1_319, EX1_319 + EX1_319, BAR_910, DED_504, DED_504 + DED_504, REV_835",
+            "condition":"*",
+            "value":"hold"
+         },
+         {
+            "comment":"Discard all cards not listed as hold",
+            "mulligan":"*",
+            "condition":"*",
+            "value":"discard"
+         }
+      ]
+   }
+}

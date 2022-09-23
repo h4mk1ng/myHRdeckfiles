@@ -1,0 +1,13 @@
+{
+   "GameCardId":"REV_244",
+   "ConfigComment":"Mischievous Imp - Battlecry: Summon a copy of this. Infuse (3): Summon 2 copies instead.",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Low value when not infused but worth playing at low turn count",
+            "condition":"my_hero(count(), max_mana < 4) > 0",
+            "value":"-20"
+         }
+      ]
+   }
+}

@@ -1,0 +1,18 @@
+{
+   "GameCardId":"AV_316",
+   "ConfigComment":"Dreadlich Tamsin - Battlecry: Deal 3 damage to all minions. Shuffle 3 Rifts into your deck. Draw 3 cards.",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Do not play if you high minion count and opponent has low minion count",
+            "condition":"my_minions(count()) > 2 AND opp_minions(count()) < 1",
+            "value":"-10"
+         },
+         {
+            "comment":"Otherwise prioritise as soon as available",
+            "condition":"my_hero(count(), max_mana >= 6) > 0 AND my_minions(count()) <= 2",
+            "value":"50"
+         }
+      ]
+   }
+}

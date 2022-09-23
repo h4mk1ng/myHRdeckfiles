@@ -1,0 +1,13 @@
+{
+   "GameCardId":"REV_835",
+   "ConfigComment":"Imp King Rafaam - Infused. Battlecry: Resurrect four friendly Imps that died this game. Give your Imps +2/+2.",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Increase in value the more Imps in the graveyard",
+            "condition":"my_graveyard(count(), cardid = GIL_191t | EX1_319 | REV_244 | REV_244t) > 1",
+            "value":"my_graveyard(count(), cardid = GIL_191t | EX1_319 | REV_244 | REV_244t) * 20"
+         }
+      ]
+   }
+}

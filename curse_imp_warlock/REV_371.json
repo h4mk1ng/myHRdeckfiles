@@ -1,0 +1,18 @@
+{
+   "GameCardId":"REV_371",
+   "ConfigComment":"Vile Library - Give a friendly minion +1/+1. Repeat for each Imp you control.",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"Don't play when board is full",
+            "condition":"my_minions(count()) > 6",
+            "value":"-1000"
+         },
+         {
+            "comment":"Gain value if more minions in play",
+            "condition":"my_minions(count(), cardid = GIL_191t | EX1_319 | REV_244 | REV_244t) >= 1",
+            "value":"my_minions(count(), cardid = GIL_191t | EX1_319 | REV_244 | REV_244t) * 15"
+         }
+      ]
+   }
+}

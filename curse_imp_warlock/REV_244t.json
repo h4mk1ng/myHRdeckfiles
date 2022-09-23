@@ -1,0 +1,18 @@
+{
+   "GameCardId":"REV_244t",
+   "ConfigComment":"Mischievous Imp - Infused. Battlecry: Summon 2 copies of this.",
+   "BeforePlayCardBonus":{
+      "values":[
+         {
+            "comment":"How to play when Brann is on the field",
+            "condition":"my_minions(count(), cardid=LOE_077) > 0 AND my_minions(count()) <= 2",
+            "value":"80"
+         },
+         {
+            "comment":"High value if infused",
+            "condition":"my_minions(count()) <= 3",
+            "value":"30"
+         }
+      ]
+   }
+}
